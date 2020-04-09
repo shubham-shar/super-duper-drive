@@ -80,23 +80,9 @@ The home page is the center of the application and hosts the three required piec
 The home page should have a logout button that allows the user to logout of the application and keep their data private.
 
 ### Testing
-Your tech lead trusts you to do a good job, but testing is important whether you're an excel number-cruncher or a full-stack coding superstar! The QA team at Super*Duper*Drive carries out extensive user testing. Still, your tech lead wants you to write some simple Selenium tests to verify user-facing functionality and prove that your code is feature-complete before the testers get their hands on it.
+##### NOTE
+ - delete the cloudStorage.mv.db file before starting the test cases
 
-1. Write tests for user signup, login, and unauthorized access restrictions.
- - Write a test that verifies that an unauthorized user can only access the login and signup pages.
- - Write a test that signs up a new user, logs in, verifies that the home page is accessible, logs out, and verifies that the home page is no longer accessible. 
-
-
-2. Write tests for note creation, viewing, editing, and deletion.
- - Write a test that creates a note, and verifies it is displayed.
- - Write a test that edits an existing note and verifies that the changes are displayed.
- - Write a test that deletes a note and verifies that the note is no longer displayed.
-
-
-3. Write tests for credential creation, viewing, editing, and deletion.
- - Write a test that creates a set of credentials, verifies that they are displayed, and verifies that the displayed password is encrypted.
- - Write a test that views an existing set of credentials, verifies that the viewable password is unencrypted, edits the credentials, and verifies that the changes are displayed.
- - Write a test that deletes an existing set of credentials and verifies that the credentials are no longer displayed.
 
 ## Final Tips and Tricks
 ### Password Security
